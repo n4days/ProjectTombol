@@ -13,6 +13,21 @@
         android:theme="@style/Theme.DtsHello"
         tools:targetApi="31">
         <activity
+            android:name=".Menu3"
+            android:exported="false"
+            android:label="Latihan Menu 3"
+            />
+        <activity
+            android:name=".Menu2"
+            android:exported="false"
+            android:label="Latihan Menu 2"
+            />
+        <activity
+            android:name=".Menu1"
+            android:exported="false"
+            android:label="Latihan Menu 1"
+            />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
