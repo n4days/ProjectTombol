@@ -15,4 +15,36 @@
         tools:layout_editor_absoluteX="37dp"
         tools:layout_editor_absoluteY="71dp"
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnMenu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0"
+        android:translationX="37dp"
+        android:translationY="149dp" />
+
+    <Button
+        android:id="@+id/btnMenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_2"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="209dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnMenu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_3"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="271dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
